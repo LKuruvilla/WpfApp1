@@ -23,7 +23,14 @@ namespace WpfApp1
     {
         public MainWindow()
         {
+            
             InitializeComponent();
+        }
+
+        private void AddNewBrand_Click(object sender, RoutedEventArgs e)
+        {
+            AddNewBrand subwindow = new AddNewBrand();
+            subwindow.Show();
         }
     }
 }

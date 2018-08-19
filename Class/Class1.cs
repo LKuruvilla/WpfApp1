@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Class
 {
@@ -7,6 +8,7 @@ namespace Class
         public int ordernum { get; set; }
         public String Fname { get; set; }
         public String Lname { get; set; }
+        public int Dob { get; set; }
         public String Brand { get; set; }
         public String Contacts { get; set; }
         public int Quantity { get; set; }
@@ -15,14 +17,24 @@ namespace Class
         public String DateRecieved { get; set; }
 
     }
+    
+
 
     public class brand
     {
         public String ManufacName { get; set; }
 
     }
+    public static class contactsList
+    {
+        
 
-    public class contactsinfo
+        public static List<contactsinfo> cList = new List<contactsinfo>();
+
+    }
+    
+
+    public class contactsinfo:brand
     {
         public String Name { get; set; }
         public float BaseCurve { get; set; }
