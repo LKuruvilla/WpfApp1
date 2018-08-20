@@ -115,3 +115,5 @@ C:\Users\xFlash Portable\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.exe
 C:\Users\xFlash Portable\source\repos\WpfApp1\WpfApp1\obj\Debug\WpfApp1.pdb
 C:\Users\xFlash Portable\source\repos\WpfApp1\WpfApp1\obj\Debug\AddNewBrand.g.cs
 C:\Users\xFlash Portable\source\repos\WpfApp1\WpfApp1\obj\Debug\AddNewBrand.baml
+C:\Users\xFlash Portable\source\repos\WpfApp1\WpfApp1\obj\Debug\ViewCurrentBrands.g.cs
+C:\Users\xFlash Portable\source\repos\WpfApp1\WpfApp1\obj\Debug\ViewCurrentBrands.baml

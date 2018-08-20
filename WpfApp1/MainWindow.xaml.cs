@@ -32,5 +32,11 @@ namespace WpfApp1
             AddNewBrand subwindow = new AddNewBrand();
             subwindow.Show();
         }
+
+        private void ViewBrands_Click(object sender, RoutedEventArgs e)
+        {
+            ViewCurrentBrands viewbrands = new ViewCurrentBrands();
+            viewbrands.Show();
+        }
     }
 }

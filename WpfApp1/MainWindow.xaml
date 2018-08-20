@@ -8,6 +8,7 @@
         Title="MainWindow" Height="737.171" Width="947.316">
     <Grid>
         <Button x:Name="AddNewBrand" Content="Add New Contacts&#xD;&#xA;" HorizontalAlignment="Left" Height="86" Margin="34,59,0,0" VerticalAlignment="Top" Width="311" Click="AddNewBrand_Click"/>
+        <Button x:Name="ViewBrands" Content="ViewCurrentContacts" HorizontalAlignment="Left" Margin="468,59,0,0" VerticalAlignment="Top" Width="211" Height="86" RenderTransformOrigin="0.225,-0.094" Click="ViewBrands_Click"/>
 
     </Grid>
 </Window>

@@ -27,10 +27,13 @@ namespace Class
     }
     public static class contactsList
     {
-        
-
         public static List<contactsinfo> cList = new List<contactsinfo>();
 
+    }
+
+    public static class brandList
+    {
+        public static List<brand> bList = new List<brand>();
     }
     
 

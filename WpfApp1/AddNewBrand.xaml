@@ -8,10 +8,10 @@
         Title="AddNewBrand" Height="450" Width="800">
     <Grid>
         <Grid HorizontalAlignment="Left" Height="310" Margin="32,31,0,0" VerticalAlignment="Top" Width="647">
-            <TextBox x:Name="getManufacText" HorizontalAlignment="Left" Height="23" Margin="49,39,0,0" TextWrapping="Wrap" Text="Manufacturer" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="getBaseCurveText" HorizontalAlignment="Left" Height="24" Margin="376,39,0,0" TextWrapping="Wrap" Text="BaseCurve" VerticalAlignment="Top" Width="73"/>
-            <TextBox x:Name="getDiameterText" HorizontalAlignment="Left" Height="23" Margin="529,40,-2,0" TextWrapping="Wrap" Text="Diameter" VerticalAlignment="Top" Width="120"/>
-            <TextBox x:Name="getContactsNameText" HorizontalAlignment="Left" Height="23" Margin="243,43,0,0" TextWrapping="Wrap" Text="ContactsName" VerticalAlignment="Top" Width="120"/>
+            <TextBox x:Name="getManufacText" HorizontalAlignment="Left" Height="23" Margin="49,39,0,0" TextWrapping="Wrap" Text="Alcon" VerticalAlignment="Top" Width="120" GotFocus="getManufacText_GotFocus"/>
+            <TextBox x:Name="getBaseCurveText" HorizontalAlignment="Left" Height="24" Margin="376,39,0,0" TextWrapping="Wrap" Text="13.0" VerticalAlignment="Top" Width="73" GotFocus="getBaseCurveText_GotFocus"/>
+            <TextBox x:Name="getDiameterText" HorizontalAlignment="Left" Height="23" Margin="529,40,-2,0" TextWrapping="Wrap" Text="14.0" VerticalAlignment="Top" Width="120" GotFocus="getDiameterText_GotFocus"/>
+            <TextBox x:Name="getContactsNameText" HorizontalAlignment="Left" Height="23" Margin="243,43,0,0" TextWrapping="Wrap" Text="AirOptix" VerticalAlignment="Top" Width="120" GotFocus="getContactsNameText_GotFocus"/>
             <Button x:Name="addContactsBrandButton" Content="AddContactsToList" HorizontalAlignment="Left" Margin="255,113,0,0" VerticalAlignment="Top" Width="134" Height="27" Click="addContactsBrandButton_Click"/>
         </Grid>
 
