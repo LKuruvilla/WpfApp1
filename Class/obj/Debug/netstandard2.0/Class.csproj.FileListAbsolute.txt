@@ -7,3 +7,12 @@ C:\Users\xFlash Portable\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Cla
 C:\Users\xFlash Portable\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.AssemblyInfo.cs
 C:\Users\xFlash Portable\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.dll
 C:\Users\xFlash Portable\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.pdb
+C:\Users\Family\source\repos\WpfApp1\Class\bin\Debug\netstandard2.0\Class.deps.json
+C:\Users\Family\source\repos\WpfApp1\Class\bin\Debug\netstandard2.0\Class.dll
+C:\Users\Family\source\repos\WpfApp1\Class\bin\Debug\netstandard2.0\Class.pdb
+C:\Users\Family\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.csprojResolveAssemblyReference.cache
+C:\Users\Family\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.csproj.CoreCompileInputs.cache
+C:\Users\Family\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.AssemblyInfoInputs.cache
+C:\Users\Family\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.AssemblyInfo.cs
+C:\Users\Family\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.dll
+C:\Users\Family\source\repos\WpfApp1\Class\obj\Debug\netstandard2.0\Class.pdb

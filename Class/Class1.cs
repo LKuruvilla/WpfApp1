@@ -28,6 +28,7 @@ namespace Class
     public static class contactsList
     {
         public static List<contactsinfo> cList = new List<contactsinfo>();
+        public static List<contactsinfo> selectedCList = new List<contactsinfo>();
 
     }
 

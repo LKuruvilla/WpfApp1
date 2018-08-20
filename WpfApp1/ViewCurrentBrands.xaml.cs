@@ -24,20 +24,36 @@ namespace WpfApp1
         public ViewCurrentBrands()
         { 
             InitializeComponent();
+            DataContext = this;
 
             CBrandListViewBox.ItemsSource = brandList.bList;
-            foreach (brand b in brandList.bList)
-            {
-                CBrandListViewBox.DataContext = b.ManufacName;
-            }
             
-            Binding contactsnamebind = new Binding();
-            contactsnamebind.Source = contactsList.cList;
+            
+            
+
+           
             
            
 
         }
 
         
+
+        private void CBrandListViewBox_PreviewMouseDown(object sender, MouseButtonEventArgs e)
+        {
+
+            String cl = CBrandListViewBox.ToString();
+
+            foreach (contactsinfo c in contactsList.cList)
+            {
+               // if (cl.ManufacName == c.ManufacName)
+                    contactsList.selectedCList.Add(contactsList.cList.Find(x=> x.ManufacName == "Alcon"));
+            }
+            ContactsNameBox.ItemsSource = contactsList.selectedCList;
+            
+        }
     }
+
+   
+    
 }
