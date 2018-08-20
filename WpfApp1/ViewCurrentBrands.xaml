@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="ViewCurrentBrands" Height="450" Width="800">
     <Grid>
-        <ListView x:Name="CBrandListViewBox" HorizontalAlignment="Left" Height="100" Margin="184,86,0,0" VerticalAlignment="Top" Width="157" ItemsSource="{Binding brandList.bList}" PreviewMouseDown="CBrandListViewBox_PreviewMouseDown" >
+        <ListView x:Name="CBrandListViewBox" HorizontalAlignment="Left" Height="100" Margin="184,86,0,0" VerticalAlignment="Top" Width="157" ItemsSource="{Binding brandList.bList}" PreviewMouseDown="CBrandListViewBox_PreviewMouseDown" SelectionMode="Multiple" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn  Header="ContactLensManufacturer" Width="150" DisplayMemberBinding="{Binding ManufacName}"/>
@@ -15,7 +15,7 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <ListView x:Name="ContactsNameBox" HorizontalAlignment="Left" Height="100" Margin="381,86,0,0" VerticalAlignment="Top" Width="100" ItemsSource="{Binding contactsList.selectedCList}" >
+        <ListView x:Name="ContactsNameBox" HorizontalAlignment="Left" Height="100" Margin="381,86,0,0" VerticalAlignment="Top" Width="100"  GotFocus="ContactsNameBox_GotFocus" >
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="ContactsName" DisplayMemberBinding = "{Binding Name}"/>

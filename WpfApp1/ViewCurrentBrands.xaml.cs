@@ -27,13 +27,8 @@ namespace WpfApp1
             DataContext = this;
 
             CBrandListViewBox.ItemsSource = brandList.bList;
-            
-            
-            
+            //ContactsNameBox.ItemsSource = contactsList.selectedCList;
 
-           
-            
-           
 
         }
 
@@ -41,16 +36,25 @@ namespace WpfApp1
 
         private void CBrandListViewBox_PreviewMouseDown(object sender, MouseButtonEventArgs e)
         {
+            
+            
 
-            String cl = CBrandListViewBox.ToString();
-
+            var selectedbrand = CBrandListViewBox.SelectedItem;
             foreach (contactsinfo c in contactsList.cList)
             {
-               // if (cl.ManufacName == c.ManufacName)
-                    contactsList.selectedCList.Add(contactsList.cList.Find(x=> x.ManufacName == "Alcon"));
+
+
+                if (selectedbrand.ToString() == c.ManufacName.ToString())
+                    contactsList.selectedCList.Add(c);
             }
             ContactsNameBox.ItemsSource = contactsList.selectedCList;
+        }
+
+        private void ContactsNameBox_GotFocus(object sender, RoutedEventArgs e)
+        {
             
+            
+
         }
     }
 

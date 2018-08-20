@@ -41,11 +41,12 @@ namespace WpfApp1
             ci.BaseCurve = float.Parse(getBaseCurveText.Text);
             ci.Diameter = float.Parse(getDiameterText.Text);
 
-            
+
 
             //must check if contacts exist first before adding.
-            if(contactsList.cList.Exists(x=> x.ManufacName == ci.ManufacName)&&
-                (contactsList.cList.Exists(y=>y.Name == ci.Name)) == false)
+
+
+            if (contactsList.cList.Exists(y => y.Name == ci.Name) == false)
             {
                 contactsList.cList.Add(ci);
             }
@@ -55,7 +56,7 @@ namespace WpfApp1
             {
                 brandList.bList.Add((brand)ci);
             }
-
+            
             this.Close();
         }
 
